@@ -30,9 +30,9 @@ jobs:
            ssh -i mykey  -o StrictHostKeyChecking=no ubuntu@34.207.122.94 "sudo rm -rf /var/www/html/*"
 
            #Copies the web content to the remote server
-           scp -i mykey -r ./* ubuntu@34.207.122.94:/tmp/web
+           scp -i mykey -r ./* ubuntu@34.207.122.94:/web
 
-           ssh -i mykey  -o StrictHostKeyChecking=no ubuntu@34.207.122.94 "sudo cp -rf /tmp/web/* /var/www/html"
+           ssh -i mykey  -o StrictHostKeyChecking=no ubuntu@34.207.122.94 "sudo cp -rf web/* /var/www/html"
            
            # This restart the nginx service
            ssh -i mykey  -o StrictHostKeyChecking=no ubuntu@34.207.122.94 "sudo systemctl restart nginx"
