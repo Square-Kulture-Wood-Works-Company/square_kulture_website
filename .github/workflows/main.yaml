@@ -26,7 +26,10 @@ jobs:
           echo "Private key saved to private_key.pem"
           echo "Connecting to server at $SERVER_IP"
           
-          # This delete all file in the said location 
+          # This delete all file in the said location
+
+          ssh -i mykey  -o StrictHostKeyChecking=no ubuntu@34.207.122.94 "sudo rm -rf ~/web/*" 
+          
            ssh -i mykey  -o StrictHostKeyChecking=no ubuntu@34.207.122.94 "sudo rm -rf /var/www/html/*"
 
            #Copies the web content to the remote server
