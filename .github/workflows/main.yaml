@@ -28,4 +28,4 @@ jobs:
           echo "Connecting to server at $SERVER_IP"
           
           # Connect to the server and create a directory
-           ssh -i .\private_key.pem  -o StrictHostKeyChecking=no ubuntu@34.207.122.94 "mkdir -p it_is_working_well"
+           ssh -i mykey  -o StrictHostKeyChecking=no ubuntu@34.207.122.94 "mkdir -p it_is_working_well"
