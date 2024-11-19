@@ -26,5 +26,11 @@ jobs:
           echo "Private key saved to private_key.pem"
           echo "Connecting to server at $SERVER_IP"
           
-          # Connect to the server and create a directory
-           ssh -i mykey  -o StrictHostKeyChecking=no ubuntu@34.207.122.94 "mkdir -p it_is_working_well"
+          # This delete all file in the said location 
+           ssh -i mykey  -o StrictHostKeyChecking=no ubuntu@34.207.122.94 "rm -rf /var/www/html/*"
+
+           #Copies the web content to the remote server
+           scp -i mykey -r ./* ubuntu@34.207.122.94:/var/www/html
+           
+           # This restart the nginx service
+           ssh -i mykey  -o StrictHostKeyChecking=no ubuntu@34.207.122.94 "sudo systemctl restart nginx"
