@@ -1,0 +1,21 @@
+name: Deploy web content to Ubuntu Server 
+
+on: 
+  push: 
+    branches:
+      - main 
+
+
+jobs: 
+  deploy: 
+    runs-on: ubuntu-latest 
+
+    steps: 
+      - name: checkout Repository 
+        uses: actions/checkout@v3 
+
+      - name: Deploy To server 
+        run: |
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" >> private_key.pem
+          chmod 400 private_key.pem
+          ssh -i private_key.pem  ubuntu@${{ secret.SERVER_IP }} "mkdir it_is_working_well"
