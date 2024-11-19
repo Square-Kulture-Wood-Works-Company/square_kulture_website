@@ -27,10 +27,12 @@ jobs:
           echo "Connecting to server at $SERVER_IP"
           
           # This delete all file in the said location 
-           ssh -i mykey  -o StrictHostKeyChecking=no ubuntu@34.207.122.94 "rm -rf /var/www/html/*"
+           ssh -i mykey  -o StrictHostKeyChecking=no ubuntu@34.207.122.94 "sudo rm -rf /var/www/html/*"
 
            #Copies the web content to the remote server
-           scp -i mykey -r ./* ubuntu@34.207.122.94:/var/www/html
+           scp -i mykey -r ./* ubuntu@34.207.122.94:/tmp/web
+
+           ssh -i mykey  -o StrictHostKeyChecking=no ubuntu@34.207.122.94 "sudo cp -rf /tmp/web/* /var/www/html"
            
            # This restart the nginx service
            ssh -i mykey  -o StrictHostKeyChecking=no ubuntu@34.207.122.94 "sudo systemctl restart nginx"
