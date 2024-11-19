@@ -15,7 +15,12 @@ jobs:
         uses: actions/checkout@v3 
 
       - name: Deploy To server 
+        env: 
+          ssh_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          server_ip: ${{ secret.SERVER_IP }}
         run: |
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" >> private_key.pem
+          echo $ssh_key >> private_key.pem
           chmod 400 private_key.pem
-          ssh -i private_key.pem  ubuntu@${{ secret.SERVER_IP }} "mkdir it_is_working_well"
+          cat private_key.pem
+          echo @$server_ip
+          #ssh -i private_key.pem  ubuntu@$server_ip "mkdir it_is_working_well"
