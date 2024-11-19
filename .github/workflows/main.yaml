@@ -16,7 +16,6 @@ jobs:
 
       - name: Deploy To server 
         env: 
-          ssh_key: ${{ secrets.SSH_PRIVATE_KEY }}
           SSH_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           SERVER_IP: ${{ secrets.SERVER_IP }}
         run: |
@@ -29,4 +28,4 @@ jobs:
           echo "Connecting to server at $SERVER_IP"
           
           # Connect to the server and create a directory
-          ssh -i private_key.pem ubuntu@$SERVER_IP "mkdir -p it_is_working_well"
+          #ssh -i private_key.pem ubuntu@$SERVER_IP "mkdir -p it_is_working_well"
