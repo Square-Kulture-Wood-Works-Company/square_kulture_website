@@ -17,10 +17,16 @@ jobs:
       - name: Deploy To server 
         env: 
           ssh_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          server_ip: ${{ secret.SERVER_IP }}
+          SSH_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SERVER_IP: ${{ secrets.SERVER_IP }}
         run: |
-          echo $ssh_key >> private_key.pem
+          # Save the SSH private key to a file
+          echo "$SSH_KEY" > private_key.pem
           chmod 400 private_key.pem
-          cat private_key.pem
-          echo @$server_ip
-          #ssh -i private_key.pem  ubuntu@$server_ip "mkdir it_is_working_well"
+          
+          # Debugging outputs (optional)
+          echo "Private key saved to private_key.pem"
+          echo "Connecting to server at $SERVER_IP"
+          
+          # Connect to the server and create a directory
+          ssh -i private_key.pem ubuntu@$SERVER_IP "mkdir -p it_is_working_well"
