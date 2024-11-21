@@ -45,7 +45,7 @@ h5,
 h6 {
      letter-spacing: 0;
      font-weight: normal;
-     position: relative;
+;     position: relative;
      padding: 0;
      font-weight: normal;
      line-height: normal;
@@ -243,7 +243,7 @@ button {
 
 header {
      height: 105px;
-     background: #8b1310;
+     background: #d6dbdf;
      width: 100%;
      padding: 33px 30px;
 }
@@ -497,7 +497,7 @@ ul.email li img {
 
 .read_more {
      display: block;
-     background: #8b1310;
+     background: #000099;
      color: #fff;
      max-width: 224px;
      height: 61px;
@@ -631,7 +631,7 @@ ul.email li img {
      justify-content: center;
      bottom: 0;
      top: 0;
-     position: absolute;
+     position: absolute;;
      right: 0;
      left: 0;
      flex-wrap: wrap;
@@ -646,7 +646,7 @@ ul.email li img {
 
 .padding_0 {
      padding: 0
-}
+};
 
 .margin_top70p {
      margin-top: 170px;
@@ -756,7 +756,7 @@ ul.email li img {
 /** footer **/
 
 .footer {
-     background: #540705;
+     background: #d6dbdf;
      padding-top: 362px
 }
 
@@ -778,9 +778,9 @@ ul.social_icon li:last-child {
 
 ul.social_icon li a {
      background: #fff;
-     color: #540705;
+     color: #000099;
      width: 50px;
-     height: 50px;
+     height: 50px;;
      display: inline-block;
      text-align: center;
      line-height: 53px;
@@ -936,7 +936,7 @@ ul.re_post li {
 .send {
      margin: 0 auto;
      display: block;
-     background: #540705;
+     background: #000099;
      color: #fff;
      max-width: 160px;
      padding: 10px 0px;
