@@ -285,7 +285,7 @@ ul.email li i {
 }
 
 ul.email li a:hover {
-     color: #003300;
+     color: #fd990c;
 }
 
 ul.email li img {
@@ -315,7 +315,7 @@ ul.email li img {
 }
 
 .sidepanel a:hover {
-     color: #003300;
+     color: #fd990c;
 }
 
 .sidepanel .closebtn {
@@ -350,7 +350,7 @@ ul.email li img {
      width: 20px;
      height: 20px;
      border-radius: 11px;
-     background-color: #003300;
+     background-color: #fd990c;
      margin: 0px 4px;
      cursor: pointer;
 }
