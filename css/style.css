@@ -285,7 +285,7 @@ ul.email li i {
 }
 
 ul.email li a:hover {
-     color: #fe9a0c;
+     color: #003300;
 }
 
 ul.email li img {
@@ -315,7 +315,7 @@ ul.email li img {
 }
 
 .sidepanel a:hover {
-     color: #fe9a0c;
+     color: #003300;
 }
 
 .sidepanel .closebtn {
@@ -350,7 +350,7 @@ ul.email li img {
      width: 20px;
      height: 20px;
      border-radius: 11px;
-     background-color: #fe9a0c;
+     background-color: #003300;
      margin: 0px 4px;
      cursor: pointer;
 }
@@ -510,7 +510,7 @@ ul.email li img {
 }
 
 .read_more:hover {
-     background: #fd990c;
+     background: #003300;
      color: #fff;
      transition: ease-in all 0.5s;
 }
@@ -539,7 +539,7 @@ ul.email li img {
 }
 
 .yello {
-     color: #fe9a0c;
+     color: #003300;
 }
 
 
@@ -578,13 +578,13 @@ ul.email li img {
 }
 
 .lisertab .servi_tab.active {
-     background: #7f1410e6;
+     background: #000099;
      color: #fff;
 }
 
 .lisertab .servi_tab:focus,
 .lisertab .servi_tab:hover {
-     background: #7f1410e6;
+     background: #000099;
      color: #fff;
 }
 
@@ -619,7 +619,7 @@ ul.email li img {
      bottom: 0;
      left: 0;
      transition: .5s ease;
-     background-color: #82171287;
+     background-color: #000099;
      border-radius: 381px;
      margin: 0 auto;
      opacity: 0;
@@ -680,7 +680,7 @@ ul.email li img {
 /** instant **/
 
 .instant {
-     background: #fd990c;
+     background: #003300;
      position: relative;
 }
 
@@ -763,7 +763,7 @@ ul.email li img {
 ul.social_icon {
      padding-top: 30px;
      padding-bottom: 33px;
-     border-bottom: #814948 solid 1px;
+     border-bottom: #000099 solid 1px;
      margin-bottom: 54px;
 }
 
@@ -790,7 +790,7 @@ ul.social_icon li a {
 }
 
 ul.social_icon li a:hover {
-     background: #fd990c;
+     background: #003300;
      color: #fff;
      transform: rotate(360deg);
      transition: ease-in all 0.7s;
@@ -828,7 +828,7 @@ ul.xple_menu li a {
 }
 
 ul.xple_menu li a:hover {
-     color: #fd990c;
+     color: #003300;
 }
 
 ul.xple_menu li a::before {
@@ -855,7 +855,7 @@ ul.re_post li {
      margin-top: 54px;
      color: #fff;
      padding: 20px 0px;
-     border-top: #814948 solid 1px;
+     border-top: #000099 solid 1px;
 }
 
 .copyright a {
@@ -863,7 +863,7 @@ ul.re_post li {
 }
 
 .copyright a:hover {
-     color: #fd990c;
+     color: #003300;
 }
 
 
@@ -947,7 +947,7 @@ ul.re_post li {
 }
 
 .send:hover {
-     background: #fd990c;
+     background: #003300;
      color: #fff;
 }
 
