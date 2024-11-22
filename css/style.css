@@ -498,7 +498,7 @@ ul.email li img {
 .read_more {
      display: block;
      background: #8b1310;
-     color: #fff;
+     color: #000080;
      max-width: 224px;
      height: 61px;
      padding: 14px 0px;
@@ -511,7 +511,7 @@ ul.email li img {
 
 .read_more:hover {
      background: #fd990c;
-     color: #fff;
+     color: #000080;
      transition: ease-in all 0.5s;
 }
 
