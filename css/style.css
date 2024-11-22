@@ -45,7 +45,7 @@ h5,
 h6 {
      letter-spacing: 0;
      font-weight: normal;
-;     position: relative;
+     position: relative;
      padding: 0;
      font-weight: normal;
      line-height: normal;
@@ -243,7 +243,7 @@ button {
 
 header {
      height: 105px;
-     background: #d6dbdf;
+     background: #f39c12;
      width: 100%;
      padding: 33px 30px;
 }
@@ -285,7 +285,7 @@ ul.email li i {
 }
 
 ul.email li a:hover {
-     color: #fd990c;
+     color: #fe9a0c;
 }
 
 ul.email li img {
@@ -315,7 +315,7 @@ ul.email li img {
 }
 
 .sidepanel a:hover {
-     color: #fd990c;
+     color: #fe9a0c;
 }
 
 .sidepanel .closebtn {
@@ -336,7 +336,7 @@ ul.email li img {
 /** banner_main **/
 
 .banner_main {
-     background: url(images/banner.jpg);
+     background: url(images/banner.png);
      background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
@@ -350,7 +350,7 @@ ul.email li img {
      width: 20px;
      height: 20px;
      border-radius: 11px;
-     background-color: #fd990c;
+     background-color: #fe9a0c;
      margin: 0px 4px;
      cursor: pointer;
 }
@@ -497,7 +497,7 @@ ul.email li img {
 
 .read_more {
      display: block;
-     background: #000099;
+     background: #006633;
      color: #fff;
      max-width: 224px;
      height: 61px;
@@ -510,7 +510,7 @@ ul.email li img {
 }
 
 .read_more:hover {
-     background: #003300;
+     background: #fe9a0c;
      color: #fff;
      transition: ease-in all 0.5s;
 }
@@ -539,7 +539,7 @@ ul.email li img {
 }
 
 .yello {
-     color: #003300;
+     color: #fe9a0c;
 }
 
 
@@ -578,13 +578,13 @@ ul.email li img {
 }
 
 .lisertab .servi_tab.active {
-     background: #000099;
+     background: #7f1410e6;
      color: #fff;
 }
 
 .lisertab .servi_tab:focus,
 .lisertab .servi_tab:hover {
-     background: #000099;
+     background: #7f1410e6;
      color: #fff;
 }
 
@@ -619,7 +619,7 @@ ul.email li img {
      bottom: 0;
      left: 0;
      transition: .5s ease;
-     background-color: #000099;
+     background-color: #82171287;
      border-radius: 381px;
      margin: 0 auto;
      opacity: 0;
@@ -631,7 +631,7 @@ ul.email li img {
      justify-content: center;
      bottom: 0;
      top: 0;
-     position: absolute;;
+     position: absolute;
      right: 0;
      left: 0;
      flex-wrap: wrap;
@@ -646,7 +646,7 @@ ul.email li img {
 
 .padding_0 {
      padding: 0
-};
+}
 
 .margin_top70p {
      margin-top: 170px;
@@ -680,7 +680,7 @@ ul.email li img {
 /** instant **/
 
 .instant {
-     background: #003300;
+     background: #fd990c;
      position: relative;
 }
 
@@ -756,14 +756,14 @@ ul.email li img {
 /** footer **/
 
 .footer {
-     background: #d6dbdf;
+     background: #540705;
      padding-top: 362px
 }
 
 ul.social_icon {
      padding-top: 30px;
      padding-bottom: 33px;
-     border-bottom: #000099 solid 1px;
+     border-bottom: #814948 solid 1px;
      margin-bottom: 54px;
 }
 
@@ -778,9 +778,9 @@ ul.social_icon li:last-child {
 
 ul.social_icon li a {
      background: #fff;
-     color: #000099;
+     color: #540705;
      width: 50px;
-     height: 50px;;
+     height: 50px;
      display: inline-block;
      text-align: center;
      line-height: 53px;
@@ -790,7 +790,7 @@ ul.social_icon li a {
 }
 
 ul.social_icon li a:hover {
-     background: #003300;
+     background: #fd990c;
      color: #fff;
      transform: rotate(360deg);
      transition: ease-in all 0.7s;
@@ -828,7 +828,7 @@ ul.xple_menu li a {
 }
 
 ul.xple_menu li a:hover {
-     color: #003300;
+     color: #fd990c;
 }
 
 ul.xple_menu li a::before {
@@ -855,7 +855,7 @@ ul.re_post li {
      margin-top: 54px;
      color: #fff;
      padding: 20px 0px;
-     border-top: #000099 solid 1px;
+     border-top: #814948 solid 1px;
 }
 
 .copyright a {
@@ -863,7 +863,7 @@ ul.re_post li {
 }
 
 .copyright a:hover {
-     color: #003300;
+     color: #fd990c;
 }
 
 
@@ -910,7 +910,7 @@ ul.re_post li {
      background: transparent;
      border: transparent;
      box-shadow: 4px 0 14px rgba(02, 3, 8, 0.20);
-     height: 55px;
+     height: 55px;;
 }
 
 .form-control:focus {
@@ -936,7 +936,7 @@ ul.re_post li {
 .send {
      margin: 0 auto;
      display: block;
-     background: #000099;
+     background: #540705;
      color: #fff;
      max-width: 160px;
      padding: 10px 0px;
@@ -947,7 +947,7 @@ ul.re_post li {
 }
 
 .send:hover {
-     background: #003300;
+     background: #fd990c;
      color: #fff;
 }
 
